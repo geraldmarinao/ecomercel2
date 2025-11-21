@@ -1,9 +1,9 @@
-// Código muy simple para mostrar alerta cuando se agrega al carrito
 
-const botonesComprar = document.querySelectorAll('.comprar');
+
+const botonesComprar = document.querySelectorAll('.boton');
 
 botonesComprar.forEach(btn => {
     btn.addEventListener('click', () => {
         alert('Producto agregado al carrito');
     });
-});
+}); 
